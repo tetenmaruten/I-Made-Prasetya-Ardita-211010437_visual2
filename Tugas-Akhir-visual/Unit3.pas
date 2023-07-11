@@ -1,0 +1,50 @@
+unit Unit3;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus;
+
+type
+  TMenuUtamaUser = class(TForm)
+    mm1: TMainMenu;
+    OPEN1: TMenuItem;
+    SISWA1: TMenuItem;
+    ORANGTUA1: TMenuItem;
+    STATUSHUBUNGAN1: TMenuItem;
+    procedure SISWA1Click(Sender: TObject);
+    procedure ORANGTUA1Click(Sender: TObject);
+    procedure STATUSHUBUNGAN1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MenuUtamaUser: TMenuUtamaUser;
+
+implementation
+
+uses Siswa, OrangTua, Hubungan;
+
+{$R *.dfm}
+
+
+procedure TMenuUtamaUser.SISWA1Click(Sender: TObject);
+begin
+     FSiswa.ShowModal;
+end;
+
+procedure TMenuUtamaUser.ORANGTUA1Click(Sender: TObject);
+begin
+   FOrtu.ShowModal;
+end;
+
+procedure TMenuUtamaUser.STATUSHUBUNGAN1Click(Sender: TObject);
+begin
+       FHubungan.ShowModal;
+end;
+
+end.

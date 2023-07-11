@@ -1,0 +1,23 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Left = 216
+  Top = 136
+  Height = 602
+  Width = 815
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'laporansiswa'
+    User = 'root'
+    Protocol = 'mysql'
+    LibraryLocation = 
+      'C:\Users\LENOVO\Documents\PERKULIAHAN\Pemograman Visual 2\Tugas ' +
+      'Akhir copy orang\libmysql.dll'
+    Left = 152
+    Top = 24
+  end
+end
