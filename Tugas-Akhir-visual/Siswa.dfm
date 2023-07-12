@@ -1,6 +1,6 @@
 object FSiswa: TFSiswa
-  Left = 75
-  Top = 40
+  Left = 116
+  Top = 133
   Width = 970
   Height = 723
   Caption = 'Siswa'

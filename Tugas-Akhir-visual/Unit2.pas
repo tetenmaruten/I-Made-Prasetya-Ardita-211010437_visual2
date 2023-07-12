@@ -14,7 +14,6 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Button1: TButton;
-    Label4: TLabel;
     Label5: TLabel;
     ZQuery1: TZQuery;
     procedure Button1Click(Sender: TObject);

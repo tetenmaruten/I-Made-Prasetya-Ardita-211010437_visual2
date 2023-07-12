@@ -14,9 +14,7 @@ object DataModule1: TDataModule1
     Database = 'laporansiswa'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 
-      'C:\Users\ASUS\Desktop\Tugas-Akhir-Visual-2110010616-main\libmysq' +
-      'l.dll'
+    LibraryLocation = 'C:\Users\ASUS\Desktop\Tugas-Akhir-visual\libmysql.dll'
     Left = 272
     Top = 136
   end

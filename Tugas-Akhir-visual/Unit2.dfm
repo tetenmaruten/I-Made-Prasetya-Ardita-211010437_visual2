@@ -52,19 +52,6 @@ object login: Tlogin
     Font.Style = []
     ParentFont = False
   end
-  object Label4: TLabel
-    Left = 120
-    Top = 248
-    Width = 275
-    Height = 16
-    Caption = 'Tugas Akhir Visual 2 | M. Ziyad Rahmani 2110010616'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -11
-    Font.Name = 'Century Gothic'
-    Font.Style = []
-    ParentFont = False
-  end
   object Label5: TLabel
     Left = 224
     Top = 216
